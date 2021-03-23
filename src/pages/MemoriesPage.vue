@@ -7,7 +7,7 @@
       </ion-button>
     </template>
     <!--LIST-->
-    <ion-list>
+    <ion-list class="ion-margin">
       <!--LIST ITEMS-->
       <ion-item 
         v-for="memory in memories" 
@@ -56,9 +56,9 @@ export default {
 </script>
 
 <style scoped>
-/*
-ion-title{
-    background-color: red;
+
+ion-list{
+  background-color: #1e1e1e;
 }
-*/
+
 </style>

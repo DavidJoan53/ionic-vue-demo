@@ -7,11 +7,11 @@
         <!--IMAGEN-->
         <ion-img :src="loadedMemory.img" :alt="loadedMemory.title"></ion-img>
         <!--TITLE-->
-        <h2 class="ion-text-center">
+        <h2 class="light-font ion-text-center">
             {{ loadedMemory.title }}
         </h2>
         <!--DESCRIPTION-->
-        <p class="ion-text-center">
+        <p class="light-font ion-text-center">
             {{ loadedMemory.description }}
         </p>
     </div>
@@ -36,3 +36,9 @@ export default {
     }
 }
 </script>
+
+<style>
+.light-font {
+    color: white;
+}
+</style>
